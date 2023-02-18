@@ -3,12 +3,11 @@
 # Modules 
 import dns.resolver 
 
-# Domain and record type
-
+# Domain and record type variables
 target_domain = 
 record_types = ["A", "AAAA", "CNAME", "MX", "NS", "SOA", "TXT"]
 
-# DNS resolver 
+# DNS resolver variable
 resolver = dns.resolver.Resolver()
 for record_type in record_types:
     # DNS lookup based on the specified domain and record type
