@@ -1,10 +1,9 @@
 #!/usr/bin/env python3 
 
 # Modules 
-import dns.resolver 
-
+import dns.resolver
 # Domain and record type variables
-target_domain = 
+target_domain = input("Wat is de domein naam?: ") 
 record_types = ["A", "AAAA", "CNAME", "MX", "NS", "SOA", "TXT"]
 
 # DNS resolver variable
