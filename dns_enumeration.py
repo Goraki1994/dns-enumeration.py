@@ -1,5 +1,4 @@
 #!/usr/bin/env python3 
-
 # Modules 
 import dns.resolver
 # Domain and record type variables
